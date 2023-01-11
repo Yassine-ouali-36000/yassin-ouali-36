@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+body{
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+margin-left: 35px;
+margin-right: 35px;
+font-family: 'Outfit', sans-serif;
+
+}
+.navbar .linksnv  a{
+    outline: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0,5s;
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+.navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:#240b38 ;
+    background-color: #4b9099;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 0,5s ease-in;
+    
+}   
+.navbar .logo h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+    cursor: pointer;
+    
+    
+}
+.left{
+    margin-top: 10px;
+}
+.left .titre h1{
+    color: rgb(31, 52, 65);
+    text-align: center;
+    
+}
+.left .text p{
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.left .social{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0,5s;
+    font-size: 30px;
+    display: flex;
+    margin: 0;
+    
+}
+
+.left .social a{
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50px;
+    
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: inherit;
+    background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 21%, #FF99AC 39%, #ffffff 60%, #ff80de 80%, #6fffb8 100%);
+
+
+  }
+  
+  .card img {
+    height: auto;
+    width: 100%;
+  }
+  .login{
+    margin: 0 0 0;
+    
+    margin:0 0 0;
+    
+    
+  }
+  .login .titre h4{
+    font-size: 1.5em;
+    font-weight: small;
+    color: rgb(108, 189, 255);
+    text-align: center;
+  }
+  .login .buttons{
+    margin:0 0 0;
+  }
+  .login .buttons input {
+    display: block; 
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+  }
+  .bod{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+background-repeat: no-repeat;
+background-size: 100%;
+  }
+  .login .links  {
+    margin:20px 20px 20px ; 
+    text-align: center;
+    font-size: 1.5em;
+  }
+.login .buttons .button-33 {
+  display: block; 
+  margin: 0 auto;
+  background-color: #ff6de7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(140, 213, 255);
+  cursor: pointer;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 25px;
+}
+.copy{
+    text-align: center;
+    margin-top: 14%;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+  
+  .login .buttons input:hover{
+    background-color:rgb(110, 214, 228);
+    border-bottom:rgb(177, 117, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  }
+
+.left .social :hover{
+   
+}
+
+.navbar .linksnv  a:hover{
+    color:rgb(0, 255, 157);
+    
+}
+.navbar:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
